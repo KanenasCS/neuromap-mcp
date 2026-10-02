@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+
+# NeuroMap data: NEVER commit scans or maps of a real tenant
+.neuromap/
+*.raw.json
+*.graph.json
+neuromap-2*.html
+maps/
+snapshots/
+
+# Local leak-guard word list (your tenant / company names; stays on your machine)
+.leakguard
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

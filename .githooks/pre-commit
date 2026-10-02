@@ -1,0 +1,4 @@
+#!/bin/sh
+# Blocks a commit that contains tenant data. Enable once with:
+#   git config core.hooksPath .githooks
+python scripts/leakguard.py || python3 scripts/leakguard.py
